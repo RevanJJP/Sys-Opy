@@ -1,0 +1,798 @@
+#Wnioski
+Prędkość działania nie zawsze jest szybsza przy większej optymalizacji - owszem, przyspiesza po optymalizacji, ale kolejne poziomy nie zawsze przyspieszają działanie programu.
+
+Optimalization 0
+STATIC 
+./main_static C S 1000 100
+ Create static array
+Real time:	0.000919s
+User time:	0.000916s
+System time:	0.000000s
+
+./main_static S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000208s
+User time:	0.000208s
+System time:	0.000000s
+
+./main_static R S 1000
+1000x  remove from static array
+Real time:	0.000258s
+User time:	0.000128s
+System time:	0.000128s
+
+./main_static A S 1000
+1000x  add to static array
+Real time:	0.000032s
+User time:	0.000021s
+System time:	0.000021s
+
+./main_static N S 1000
+1000x  add and remove to static array
+Real time:	0.000537s
+User time:	0.000269s
+System time:	0.000269s
+
+./main_static C D 1000 100
+ Create dynamic array
+Real time:	0.000078s
+User time:	0.000000s
+System time:	0.000074s
+
+./main_static S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000190s
+User time:	0.000197s
+System time:	0.000000s
+
+./main_static R D 1000
+1000x  remove from dynamic array
+Real time:	0.000031s
+User time:	0.000031s
+System time:	0.000000s
+
+./main_static A D 1000
+1000x  add to dynamic array
+Real time:	0.000063s
+User time:	0.000000s
+System time:	0.000071s
+
+./main_static N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000124s
+User time:	0.000114s
+System time:	0.000000s
+
+
+
+DYNAMIC 
+./main_dynamic C S 1000 100
+ Create static array
+Real time:	0.000844s
+User time:	0.000842s
+System time:	0.000000s
+
+./main_dynamic S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000191s
+User time:	0.000199s
+System time:	0.000000s
+
+./main_dynamic R S 1000
+1000x  remove from static array
+Real time:	0.000273s
+User time:	0.000281s
+System time:	0.000000s
+
+./main_dynamic A S 1000
+1000x  add to static array
+Real time:	0.000033s
+User time:	0.000032s
+System time:	0.000000s
+
+./main_dynamic N S 1000
+1000x  add and remove to static array
+Real time:	0.000539s
+User time:	0.000274s
+System time:	0.000274s
+
+./main_dynamic C D 1000
+
+
+SHARED 
+./main_shared C S 1000 100
+ Create static array
+Real time:	0.000914s
+User time:	0.000747s
+System time:	0.000162s
+
+./main_shared S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000206s
+User time:	0.000204s
+System time:	0.000000s
+
+./main_shared R S 1000
+1000x  remove from static array
+Real time:	0.000259s
+User time:	0.000129s
+System time:	0.000129s
+
+./main_shared A S 1000
+1000x  add to static array
+Real time:	0.000034s
+User time:	0.000016s
+System time:	0.000016s
+
+./main_shared N S 1000
+1000x  add and remove to static array
+Real time:	0.000539s
+User time:	0.000268s
+System time:	0.000268s
+
+./main_shared C D 1000 100
+ Create dynamic array
+Real time:	0.000069s
+User time:	0.000067s
+System time:	0.000000s
+
+./main_shared S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000188s
+User time:	0.000098s
+System time:	0.000098s
+
+./main_shared R D 1000
+1000x  remove from dynamic array
+Real time:	0.000035s
+User time:	0.000000s
+System time:	0.000032s
+
+./main_shared A D 1000
+1000x  add to dynamic array
+Real time:	0.000062s
+User time:	0.000071s
+System time:	0.000000s
+
+./main_shared N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000137s
+User time:	0.000135s
+System time:	0.000000s
+
+Optimalization 1
+STATIC 
+./main_static C S 1000 100
+ Create static array
+Real time:	0.000254s
+User time:	0.000000s
+System time:	0.000252s
+
+./main_static S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000050s
+User time:	0.000029s
+System time:	0.000029s
+
+./main_static R S 1000
+1000x  remove from static array
+Real time:	0.000049s
+User time:	0.000000s
+System time:	0.000057s
+
+./main_static A S 1000
+1000x  add to static array
+Real time:	0.000057s
+User time:	0.000028s
+System time:	0.000028s
+
+./main_static N S 1000
+1000x  add and remove to static array
+Real time:	0.000146s
+User time:	0.000154s
+System time:	0.000000s
+
+./main_static C D 1000 100
+ Create dynamic array
+Real time:	0.000056s
+User time:	0.000000s
+System time:	0.000054s
+
+./main_static S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000050s
+User time:	0.000059s
+System time:	0.000000s
+
+./main_static R D 1000
+1000x  remove from dynamic array
+Real time:	0.000025s
+User time:	0.000025s
+System time:	0.000000s
+
+./main_static A D 1000
+1000x  add to dynamic array
+Real time:	0.000083s
+User time:	0.000083s
+System time:	0.000000s
+
+./main_static N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000144s
+User time:	0.000142s
+System time:	0.000000s
+
+
+
+DYNAMIC 
+./main_dynamic C S 1000 100
+ Create static array
+Real time:	0.000179s
+User time:	0.000000s
+System time:	0.000185s
+
+./main_dynamic S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000052s
+User time:	0.000026s
+System time:	0.000026s
+
+./main_dynamic R S 1000
+1000x  remove from static array
+Real time:	0.000050s
+User time:	0.000000s
+System time:	0.000059s
+
+./main_dynamic A S 1000
+1000x  add to static array
+Real time:	0.000058s
+User time:	0.000057s
+System time:	0.000000s
+
+./main_dynamic N S 1000
+1000x  add and remove to static array
+Real time:	0.000147s
+User time:	0.000145s
+System time:	0.000000s
+
+./main_dynamic C D 1000
+
+
+SHARED 
+./main_shared C S 1000 100
+ Create static array
+Real time:	0.000244s
+User time:	0.000000s
+System time:	0.000242s
+
+./main_shared S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000043s
+User time:	0.000026s
+System time:	0.000026s
+
+./main_shared R S 1000
+1000x  remove from static array
+Real time:	0.000050s
+User time:	0.000000s
+System time:	0.000058s
+
+./main_shared A S 1000
+1000x  add to static array
+Real time:	0.000058s
+User time:	0.000066s
+System time:	0.000000s
+
+./main_shared N S 1000
+1000x  add and remove to static array
+Real time:	0.000137s
+User time:	0.000136s
+System time:	0.000000s
+
+./main_shared C D 1000 100
+ Create dynamic array
+Real time:	0.000079s
+User time:	0.000076s
+System time:	0.000000s
+
+./main_shared S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000041s
+User time:	0.000020s
+System time:	0.000020s
+
+./main_shared R D 1000
+1000x  remove from dynamic array
+Real time:	0.000026s
+User time:	0.000000s
+System time:	0.000025s
+
+./main_shared A D 1000
+1000x  add to dynamic array
+Real time:	0.000084s
+User time:	0.000042s
+System time:	0.000042s
+
+./main_shared N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000128s
+User time:	0.000000s
+System time:	0.000127s
+
+Optimalization 2
+STATIC 
+./main_static C S 1000 100
+ Create static array
+Real time:	0.000261s
+User time:	0.000259s
+System time:	0.000000s
+
+./main_static S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000041s
+User time:	0.000050s
+System time:	0.000000s
+
+./main_static R S 1000
+1000x  remove from static array
+Real time:	0.000036s
+User time:	0.000000s
+System time:	0.000043s
+
+./main_static A S 1000
+1000x  add to static array
+Real time:	0.000024s
+User time:	0.000032s
+System time:	0.000000s
+
+./main_static N S 1000
+1000x  add and remove to static array
+Real time:	0.000100s
+User time:	0.000000s
+System time:	0.000108s
+
+./main_static C D 1000 100
+ Create dynamic array
+Real time:	0.000058s
+User time:	0.000049s
+System time:	0.000000s
+
+./main_static S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000057s
+User time:	0.000000s
+System time:	0.000060s
+
+./main_static R D 1000
+1000x  remove from dynamic array
+Real time:	0.000027s
+User time:	0.000024s
+System time:	0.000000s
+
+./main_static A D 1000
+1000x  add to dynamic array
+Real time:	0.000053s
+User time:	0.000053s
+System time:	0.000000s
+
+./main_static N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000097s
+User time:	0.000000s
+System time:	0.000095s
+
+
+
+DYNAMIC 
+./main_dynamic C S 1000 100
+ Create static array
+Real time:	0.000204s
+User time:	0.000000s
+System time:	0.000202s
+
+./main_dynamic S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000054s
+User time:	0.000000s
+System time:	0.000062s
+
+./main_dynamic R S 1000
+1000x  remove from static array
+Real time:	0.000040s
+User time:	0.000049s
+System time:	0.000000s
+
+./main_dynamic A S 1000
+1000x  add to static array
+Real time:	0.000024s
+User time:	0.000016s
+System time:	0.000016s
+
+./main_dynamic N S 1000
+1000x  add and remove to static array
+Real time:	0.000093s
+User time:	0.000000s
+System time:	0.000092s
+
+./main_dynamic C D 1000
+
+
+SHARED 
+./main_shared C S 1000 100
+ Create static array
+Real time:	0.000231s
+User time:	0.000237s
+System time:	0.000000s
+
+./main_shared S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000053s
+User time:	0.000052s
+System time:	0.000000s
+
+./main_shared R S 1000
+1000x  remove from static array
+Real time:	0.000042s
+User time:	0.000039s
+System time:	0.000000s
+
+./main_shared A S 1000
+1000x  add to static array
+Real time:	0.000024s
+User time:	0.000032s
+System time:	0.000000s
+
+./main_shared N S 1000
+1000x  add and remove to static array
+Real time:	0.000093s
+User time:	0.000000s
+System time:	0.000092s
+
+./main_shared C D 1000 100
+ Create dynamic array
+Real time:	0.000059s
+User time:	0.000057s
+System time:	0.000000s
+
+./main_shared S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000054s
+User time:	0.000031s
+System time:	0.000031s
+
+./main_shared R D 1000
+1000x  remove from dynamic array
+Real time:	0.000026s
+User time:	0.000025s
+System time:	0.000000s
+
+./main_shared A D 1000
+1000x  add to dynamic array
+Real time:	0.000055s
+User time:	0.000000s
+System time:	0.000053s
+
+./main_shared N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000108s
+User time:	0.000107s
+System time:	0.000000s
+
+Optimalization 3
+STATIC 
+./main_static C S 1000 100
+ Create static array
+Real time:	0.000156s
+User time:	0.000000s
+System time:	0.000153s
+
+./main_static S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000002s
+User time:	0.000001s
+System time:	0.000000s
+
+./main_static R S 1000
+1000x  remove from static array
+Real time:	0.000012s
+User time:	0.000000s
+System time:	0.000011s
+
+./main_static A S 1000
+1000x  add to static array
+Real time:	0.000024s
+User time:	0.000000s
+System time:	0.000023s
+
+./main_static N S 1000
+1000x  add and remove to static array
+Real time:	0.000036s
+User time:	0.000035s
+System time:	0.000000s
+
+./main_static C D 1000 100
+ Create dynamic array
+Real time:	0.000058s
+User time:	0.000055s
+System time:	0.000000s
+
+./main_static S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000004s
+User time:	0.000002s
+System time:	0.000000s
+
+./main_static R D 1000
+1000x  remove from dynamic array
+Real time:	0.000024s
+User time:	0.000000s
+System time:	0.000023s
+
+./main_static A D 1000
+1000x  add to dynamic array
+Real time:	0.000051s
+User time:	0.000050s
+System time:	0.000000s
+
+./main_static N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000090s
+User time:	0.000000s
+System time:	0.000089s
+
+
+
+DYNAMIC 
+./main_dynamic C S 1000 100
+ Create static array
+Real time:	0.000106s
+User time:	0.000000s
+System time:	0.000115s
+
+./main_dynamic S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000043s
+User time:	0.000042s
+System time:	0.000000s
+
+./main_dynamic R S 1000
+1000x  remove from static array
+Real time:	0.000014s
+User time:	0.000000s
+System time:	0.000012s
+
+./main_dynamic A S 1000
+1000x  add to static array
+Real time:	0.000025s
+User time:	0.000023s
+System time:	0.000000s
+
+./main_dynamic N S 1000
+1000x  add and remove to static array
+Real time:	0.000040s
+User time:	0.000000s
+System time:	0.000048s
+
+./main_dynamic C D 1000
+
+
+SHARED 
+./main_shared C S 1000 100
+ Create static array
+Real time:	0.000149s
+User time:	0.000000s
+System time:	0.000156s
+
+./main_shared S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000052s
+User time:	0.000026s
+System time:	0.000026s
+
+./main_shared R S 1000
+1000x  remove from static array
+Real time:	0.000012s
+User time:	0.000000s
+System time:	0.000020s
+
+./main_shared A S 1000
+1000x  add to static array
+Real time:	0.000024s
+User time:	0.000012s
+System time:	0.000012s
+
+./main_shared N S 1000
+1000x  add and remove to static array
+Real time:	0.000040s
+User time:	0.000048s
+System time:	0.000000s
+
+./main_shared C D 1000 100
+ Create dynamic array
+Real time:	0.000051s
+User time:	0.000000s
+System time:	0.000048s
+
+./main_shared S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000039s
+User time:	0.000046s
+System time:	0.000000s
+
+./main_shared R D 1000
+1000x  remove from dynamic array
+Real time:	0.000028s
+User time:	0.000000s
+System time:	0.000036s
+
+./main_shared A D 1000
+1000x  add to dynamic array
+Real time:	0.000054s
+User time:	0.000054s
+System time:	0.000000s
+
+./main_shared N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000117s
+User time:	0.000116s
+System time:	0.000000s
+
+Optimalization s
+STATIC 
+./main_static C S 1000 100
+ Create static array
+Real time:	0.000228s
+User time:	0.000000s
+System time:	0.000235s
+
+./main_static S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000064s
+User time:	0.000036s
+System time:	0.000036s
+
+./main_static R S 1000
+1000x  remove from static array
+Real time:	0.000047s
+User time:	0.000023s
+System time:	0.000023s
+
+./main_static A S 1000
+1000x  add to static array
+Real time:	0.000067s
+User time:	0.000033s
+System time:	0.000033s
+
+./main_static N S 1000
+1000x  add and remove to static array
+Real time:	0.000123s
+User time:	0.000065s
+System time:	0.000065s
+
+./main_static C D 1000 100
+ Create dynamic array
+Real time:	0.000071s
+User time:	0.000070s
+System time:	0.000000s
+
+./main_static S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000073s
+User time:	0.000065s
+System time:	0.000000s
+
+./main_static R D 1000
+1000x  remove from dynamic array
+Real time:	0.000034s
+User time:	0.000014s
+System time:	0.000014s
+
+./main_static A D 1000
+1000x  add to dynamic array
+Real time:	0.000092s
+User time:	0.000046s
+System time:	0.000046s
+
+./main_static N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000128s
+User time:	0.000063s
+System time:	0.000063s
+
+
+
+DYNAMIC 
+./main_dynamic C S 1000 100
+ Create static array
+Real time:	0.000204s
+User time:	0.000000s
+System time:	0.000202s
+
+./main_dynamic S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000066s
+User time:	0.000037s
+System time:	0.000037s
+
+./main_dynamic R S 1000
+1000x  remove from static array
+Real time:	0.000063s
+User time:	0.000071s
+System time:	0.000000s
+
+./main_dynamic A S 1000
+1000x  add to static array
+Real time:	0.000058s
+User time:	0.000033s
+System time:	0.000033s
+
+./main_dynamic N S 1000
+1000x  add and remove to static array
+Real time:	0.000160s
+User time:	0.000159s
+System time:	0.000000s
+
+./main_dynamic C D 1000
+
+
+SHARED 
+./main_shared C S 1000 100
+ Create static array
+Real time:	0.000237s
+User time:	0.000243s
+System time:	0.000000s
+
+./main_shared S S 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000075s
+User time:	0.000037s
+System time:	0.000037s
+
+./main_shared R S 1000
+1000x  remove from static array
+Real time:	0.000063s
+User time:	0.000062s
+System time:	0.000000s
+
+./main_shared A S 1000
+1000x  add to static array
+Real time:	0.000058s
+User time:	0.000066s
+System time:	0.000000s
+
+./main_shared N S 1000
+1000x  add and remove to static array
+Real time:	0.000159s
+User time:	0.000079s
+System time:	0.000079s
+
+./main_shared C D 1000 100
+ Create dynamic array
+Real time:	0.000068s
+User time:	0.000065s
+System time:	0.000000s
+
+./main_shared S D 1000
+In 1000 lines find block by sum in static array
+Real time:	0.000074s
+User time:	0.000033s
+System time:	0.000033s
+
+./main_shared R D 1000
+1000x  remove from dynamic array
+Real time:	0.000035s
+User time:	0.000027s
+System time:	0.000000s
+
+./main_shared A D 1000
+1000x  add to dynamic array
+Real time:	0.000093s
+User time:	0.000041s
+System time:	0.000041s
+
+./main_shared N D 1000
+1000x  add and remove from dynamic array
+Real time:	0.000138s
+User time:	0.000130s
+System time:	0.000000s
+
