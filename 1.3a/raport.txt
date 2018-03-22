@@ -1,3 +1,8 @@
+#Wnioski
+Można zauważyć, że największą szybkością działania cechują się biblioteki statyczne,
+W przeciwieństwie do bibliotek dzielonych, które są najwolniejsze. Natomiast biblioteki
+Dynamiczne posiadają różne prędkości, zależnie od funkcji.
+
 STATIC
 ./main_static C S 1000 100
  Create static array
@@ -155,4 +160,3 @@ System time:	0.000061s
 Real time:	0.000117s
 User time:	0.000116s
 System time:	0.000000s
-
