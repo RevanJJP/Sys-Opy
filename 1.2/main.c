@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
+#include <sys/resource.h>
 #include "blockarray.h"
 
 //printf("\n\n\nTu break\n\n\n");
@@ -253,7 +254,10 @@ void time_of_add_static(int amount) {
 void time_of_add_dynamic(int amount) {
     struct timeval real_start, real_end;
     struct rusage susage, eusage;
-    int block_size = arc4random() % (MAX_BLOCK_SIZE - 1) + 1;
+    int block_size;
+    do {
+        block_size = arc4random() % (MAX_BLOCK_SIZE - 1) + 1;
+    }while((block_size)%16==0);
 
     dynamic_array* array = create_random_dynamic_array(amount, block_size);
     char* block=create_block(array->block_size);
@@ -298,7 +302,10 @@ void time_of_remove_static(int amount) {
 void time_of_remove_dynamic(int amount) {
     struct timeval real_start, real_end;
     struct rusage susage, eusage;
-    int block_size=arc4random()%(MAX_BLOCK_SIZE-1)+1;
+    int block_size;
+    do {
+        block_size=arc4random()%(MAX_BLOCK_SIZE-1)+1;
+    } while((block_size-1)%16==0);
 
     dynamic_array* array = create_random_dynamic_array(amount, block_size);
 
@@ -348,7 +355,9 @@ void time_of_remove_and_add_dynamic(int amount) {
     struct timeval real_start, real_end;
     struct rusage susage, eusage;
     int block_size;
+    do{
         block_size=arc4random()%(MAX_BLOCK_SIZE-1)+1;
+    } while((block_size-1)%16==0);
 
     dynamic_array* array = create_random_dynamic_array(amount, block_size);
     char* block=create_block(array->block_size);
@@ -394,7 +403,10 @@ void time_of_find_block_by_sum_static(int sum) {
 void time_of_find_block_by_sum_dynamic(int sum) {
     struct timeval real_start, real_end;
     struct rusage susage, eusage;
-    int  block_size = arc4random() % (MAX_BLOCK_SIZE - 1) + 1;
+    int block_size;
+    do {
+        block_size = arc4random() % (MAX_BLOCK_SIZE - 1) + 1;
+    } while((block_size-1)%16==0);
 
     dynamic_array* array = create_random_dynamic_array(MAX_ARRAY_SIZE, block_size);
 
