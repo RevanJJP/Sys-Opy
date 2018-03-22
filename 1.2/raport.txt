@@ -1,0 +1,50 @@
+ Create static array
+Real time:	0.000420s
+User time:	0.000299s
+System time:	0.000072s
+
+In 1000 lines find block by sum in static array
+Real time:	0.000064s
+User time:	0.000051s
+System time:	0.000002s
+
+1000x  remove from static array
+Real time:	0.000246s
+User time:	0.000238s
+System time:	0.000002s
+
+1000x  add to static array
+Real time:	0.000032s
+User time:	0.000022s
+System time:	0.000002s
+
+1000x  add and remove to static array
+Real time:	0.000244s
+User time:	0.000235s
+System time:	0.000002s
+
+ Create dynamic array
+Real time:	0.000022s
+User time:	0.000009s
+System time:	0.000004s
+
+In 1000 lines find block by sum in static array
+Real time:	0.000231s
+User time:	0.000223s
+System time:	0.000002s
+
+1000x  remove from dynamic array
+Real time:	0.000086s
+User time:	0.000076s
+System time:	0.000001s
+
+1000x  add to dynamic array
+Real time:	0.000065s
+User time:	0.000054s
+System time:	0.000002s
+
+1000x  add and remove from dynamic array
+Real time:	0.000215s
+User time:	0.000204s
+System time:	0.000001s
+
