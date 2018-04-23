@@ -1,0 +1,15 @@
+ls -a -l
+
+
+echo hejka
+
+echo hejka2
+ls -a -l
+echo hejka3
+
+
+
+
+echo 4
+
+ls

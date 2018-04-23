@@ -1,0 +1,68 @@
+./z2 T text.txt text_copy.txt 4096 4
+ System copying
+User time:	0.004825s
+System time:	0.018715s
+
+ Library copying
+User time:	0.000838s
+System time:	0.000242s
+
+ System sort
+User time:	10.379903s
+System time:	13.250343s
+
+ Library sort
+User time:	14.667869s
+System time:	21.100570s
+
+./z2 T text.txt text_copy.txt 4096 512
+ System copying
+User time:	0.005252s
+System time:	0.028191s
+
+ Library copying
+User time:	0.001300s
+System time:	0.001708s
+
+ System sort
+User time:	10.809369s
+System time:	13.725543s
+
+ Library sort
+User time:	17.315924s
+System time:	58.151172s
+
+./z2 T text.txt text_copy.txt 4096 4096
+ System copying
+User time:	0.008154s
+System time:	0.163621s
+
+ Library copying
+User time:	0.003305s
+System time:	0.019145s
+
+ System sort
+User time:	11.102711s
+System time:	20.959283s
+
+ Library sort
+User time:	17.910865s
+System time:	62.630518s
+
+./z2 T text.txt text_copy.txt 4096 8192
+ System copying
+User time:	0.006293s
+System time:	0.057081s
+
+ Library copying
+User time:	0.004893s
+System time:	0.029227s
+
+ System sort
+User time:	10.857332s
+System time:	24.934298s
+
+ Library sort
+User time:	20.127897s
+System time:	68.348866s
+
