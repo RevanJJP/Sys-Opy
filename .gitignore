@@ -10,3 +10,13 @@ sysops_works.code-workspace
 3.2/z3
 3.1/z3
 2.1/.vscode/launch.json
+*.json
+5.1/z5
+5.2/jjp_lib.c
+5.2/jjp_lib.h
+5.2/Makefile
+5.2/master.c
+5.2/script.sh
+5.2/slave.c
+5.2/z5-m
+5.2/z5-s
